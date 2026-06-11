@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Fjallraven - Foldsack No. 1 Backpack",
+      "price": 109.95,
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": {"rate": 3.9, "count": 120}
+    },
+    {
+      "id": 2,
+      "title": "Mens Casual Premium Slim Fit T-Shirts",
+      "price": 22.3,
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": {"rate": 4.1, "count": 259}
+    },
+    {
+      "id": 3,
+      "title": "Mens Cotton Jacket",
+      "price": 55.99,
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "rating": {"rate": 4.7, "count": 500}
+    },
+    {
+      "id": 4,
+      "title": "Mens Casual Slim Fit",
+      "price": 15.99,
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71YXzeHoouL._AC_UY879_.jpg",
+      "rating": {"rate": 2.1, "count": 430}
+    },
+    {
+      "id": 5,
+      "title": "WD 2TB Elements Portable External Hard Drive",
+      "price": 64.0,
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "rating": {"rate": 3.3, "count": 203}
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "john@gmail.com",
+      "username": "johnd",
+      "firstname": "John",
+      "lastname": "Doe"
+    },
+    {
+      "id": 2,
+      "email": "jane@gmail.com",
+      "username": "janed",
+      "firstname": "Jane",
+      "lastname": "Smith"
+    },
+    {
+      "id": 3,
+      "email": "bob@gmail.com",
+      "username": "bobw",
+      "firstname": "Bob",
+      "lastname": "Wilson"
+    }
+  ],
+  "orders": [
+    {
+      "user_id": 1,
+      "products": [
+        {"product_id": 1, "quantity": 2},
+        {"product_id": 2, "quantity": 1}
+      ]
+    },
+    {
+      "user_id": 2,
+      "products": [
+        {"product_id": 3, "quantity": 1}
+      ]
+    }
+  ]
+}
